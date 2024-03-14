@@ -9,4 +9,4 @@
 
 ## Table of contents
 ### Project
-[Dialogue Summarization Competition](https://github.com/godjumo/TIL/blob/main/Project/%5Baistages%5Ddialogue_summarization_log.md)
+* [Dialogue Summarization Competition](https://github.com/godjumo/TIL/blob/main/Project/%5Baistages%5Ddialogue_summarization_log.md)
