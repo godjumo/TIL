@@ -30,3 +30,12 @@
   * Google Translate는 10 MB까지 파일 번역 가능
   * Data를 .xlsx로 바꾼 후 번역하고 .xlsx을 다시 .csv로 바꿈
   * 원인 모를 띄어쓰기가 삽입되므로 columns name를 수정하고 str.strip()을 실행
+
+### 2024. 03. 18(화)
+
+* Model Compare 코드에서 T5 base Model이 OOM(Out Of Memory) 문제가 발생하므로 batch_size를 수정해서 코드를 동작
+
+```python
+"per_device_train_batch_size": 15,
+"per_device_eval_batch_size": 32
+```
