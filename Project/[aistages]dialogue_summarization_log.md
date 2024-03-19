@@ -39,3 +39,11 @@
 "per_device_train_batch_size": 15,
 "per_device_eval_batch_size": 32
 ```
+
+### 2024. 03. 19(수)
+
+* T5 모델 fine-tuning 하는 도중 Expected input batch_size(-) to match target batch_size(-) 에러 발생
+* 발생이유 및 해결방법은 아직 찾지 못했음(Pytorch와 Tenserflow 간의 인덱싱 문제로 추측중..)
+* Back-translation으로 데이터 증강 완료, Data Augrement 기법인 Back-translation이 생각보다 효과가 있는 것으로 보임(약간의 성능 향상의 이유일 수 있음)
+* Data EDA를 통한 Preprocessing이 약간의 성능 향상을 가져오는 것으로 보임
+* Upstage Solar LLM API를 사용한 데이터 증강 진행 중...
